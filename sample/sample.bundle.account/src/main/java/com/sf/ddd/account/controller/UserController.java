@@ -1,4 +1,4 @@
-package com.sf.ddd.user.controller;
+package com.sf.ddd.account.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.alibaba.fastjson.JSON;
+import com.sf.ddd.account.domain.event.QueryUserInfoEvent;
+import com.sf.ddd.account.domain.event.QueryUserInfoRespEvent;
 import com.sf.ddd.core.EventDispatcher;
-import com.sf.ddd.user.domain.event.QueryUserInfoEvent;
-import com.sf.ddd.user.domain.event.QueryUserInfoRespEvent;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -17,9 +17,9 @@ import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 
 /**
- * 用户管理控制层
+ * 用户管理控制层 
  * 
- * @author 01369084 2019年12月9日 下午5:17:16
+ * @author lizhuo 2020年7月22日 下午10:11:30
  */
 @RestController
 @RequestMapping("/user")

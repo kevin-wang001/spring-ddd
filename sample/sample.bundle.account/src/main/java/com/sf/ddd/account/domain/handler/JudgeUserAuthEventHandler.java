@@ -1,9 +1,9 @@
-package com.sf.ddd.user.domain.handler;
+package com.sf.ddd.account.domain.handler;
 
+import com.sf.ddd.account.domain.event.JudgeUserAuthEvent;
+import com.sf.ddd.account.repository.UserMapper;
 import com.sf.ddd.core.DomainEventHandler;
 import com.sf.ddd.core.IHandler;
-import com.sf.ddd.user.domain.event.JudgeUserAuthEvent;
-import com.sf.ddd.user.repository.UserMapper;
 
 import lombok.extern.slf4j.Slf4j;
 

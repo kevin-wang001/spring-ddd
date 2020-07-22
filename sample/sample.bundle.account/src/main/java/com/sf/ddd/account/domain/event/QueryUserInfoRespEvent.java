@@ -1,4 +1,4 @@
-package com.sf.ddd.user.domain.event;
+package com.sf.ddd.account.domain.event;
 
 import java.util.List;
 

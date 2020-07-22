@@ -1,17 +1,17 @@
-package com.sf.ddd.user.domain.handler;
+package com.sf.ddd.account.domain.handler;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
+import com.sf.ddd.account.domain.event.QueryUserInfoEvent;
+import com.sf.ddd.account.domain.event.QueryUserInfoRespEvent;
+import com.sf.ddd.account.repository.UserMapper;
 import com.sf.ddd.bundle.order.facade.QueryUserOrderFacadeService;
 import com.sf.ddd.bundle.order.facade.dto.QueryUserOrderReqDTO;
 import com.sf.ddd.core.DomainEventHandler;
 import com.sf.ddd.core.IHandler;
 import com.sf.ddd.core.facade.FacadeServiceRegistry;
-import com.sf.ddd.user.domain.event.QueryUserInfoEvent;
-import com.sf.ddd.user.domain.event.QueryUserInfoRespEvent;
-import com.sf.ddd.user.repository.UserMapper;
 
 import lombok.extern.slf4j.Slf4j;
 

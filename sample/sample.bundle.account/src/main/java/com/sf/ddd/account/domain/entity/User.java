@@ -1,4 +1,4 @@
-package com.sf.ddd.user.domain.entity;
+package com.sf.ddd.account.domain.entity;
 
 import java.time.LocalDateTime;
 

@@ -1,12 +1,12 @@
-package com.sf.ddd.user.facade.impl;
+package com.sf.ddd.account.facade.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
+import com.sf.ddd.account.domain.event.JudgeUserAuthEvent;
 import com.sf.ddd.bundle.user.facade.UserAuthFacadeService;
 import com.sf.ddd.bundle.user.facade.dto.UserAuthRequestDto;
 import com.sf.ddd.core.EventDispatcher;
 import com.sf.ddd.core.facade.FacadeService;
-import com.sf.ddd.user.domain.event.JudgeUserAuthEvent;
 
 /**
  * 对bundle外提供服务实现类

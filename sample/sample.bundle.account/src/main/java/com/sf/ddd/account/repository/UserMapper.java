@@ -1,7 +1,7 @@
-package com.sf.ddd.user.repository;
+package com.sf.ddd.account.repository;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.sf.ddd.user.domain.entity.User;
+import com.sf.ddd.account.domain.entity.User;
 
 /**
  * 用户信息数据访问层
