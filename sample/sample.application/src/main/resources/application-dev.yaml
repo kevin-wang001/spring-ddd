@@ -1,0 +1,54 @@
+server:
+  port: 9003
+  servlet:
+    context-path: /ddd-sample
+spring:
+  application:
+    name: ddd-sample
+  mvc:
+    favicon:
+      enabled: false
+  messages:
+    encoding: utf-8
+  datasource:
+    url: jdbc:mysql://sdeisfxcloud-m.dbsit.sfcloud.local:3306/sdeis_fxcloud?useSSL=false&amp;useUnicode=true&amp;characterEncoding=UTF8
+    hikari:
+      username: sdeis_fxcloud
+      password: ENC(1OLEa1ZfXOPSsQYOMf+dPomZUzqnipM/)
+      idle-timeout: 600000
+      max-lifetime: 1800000
+      maximum-pool-size: 8
+      minimum-idle: 5
+      connection-test-query: SELECT 1
+    driver-class-name: com.mysql.jdbc.Driver
+  redis:
+    password: ENC(E/w/00cLG3JBnp9nZUJEEvFNH1h1j6XlseYbwjsD3No=)
+    sentinel:
+      master: ESG_SDEIS_CORE_REDIS_C01
+      nodes: esg-sdeis-core1.cachesit.sfdc.com.cn:8001,esg-sdeis-core2.cachesit.sfdc.com.cn:8001,esg-sdeis-core3.cachesit.sfdc.com.cn:8001
+    database: 5
+  servlet:
+    multipart:
+      max-file-size: 100MB #文件上传大小限制
+      max-request-size: 100MB
+
+#mybatis
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: input
+      db-type: mysql
+    refresh: true
+  mapper-locations: classpath*:/mapper/**/*.xml
+  configuration:
+    auto-mapping-behavior: full
+    map-underscore-to-camel-case: true
+logging:
+  file: classpath:log4j2-spring.xml
+
+jasypt:
+  encryptor:
+    password: 2sJsOWjTIQx
+
+applications:
+  dddUrl: http://ddd.dev.sf-express.com
