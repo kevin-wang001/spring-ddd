@@ -39,7 +39,7 @@
 		</dependency>
 		<dependency>
 			<groupId>com.sf.ddd.sample</groupId>
-			<artifactId>sample.bundle.user</artifactId>
+			<artifactId>sample.bundle.account</artifactId>
 			<version>1.0</version>
 		</dependency>
 		<!-- 插件 结束 -->
