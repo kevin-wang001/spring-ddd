@@ -23,7 +23,7 @@
 	<modules>
 		<module>sample.bundle.facade</module>
 		<module>sample.bundle.order</module>
-		<module>sample.bundle.user</module>
+		<module>sample.bundle.account</module>
 		<module>sample.application</module>
 	</modules>
 
