@@ -12,23 +12,23 @@ import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 /**
- * @Author: 01387147
- * @Date:2019/12/2
+ * 类User.java的实现描述：TODO 类实现描述
+ * 
+ * @author lizhuo 2020年7月22日 下午10:29:45
  */
-
 @Data
 @TableName("ti_fx_admin_board")
 @ApiModel(value = "公告栏表", description = "公告栏表")
 public class User {
 
-    @TableId(value = "id",type = IdType.AUTO)
-    private Long id;
+    @TableId(value = "id", type = IdType.AUTO)
+    private Long          id;
 
     @ApiModelProperty(value = "'公告栏标题'")
-    private String boardTitle;
+    private String        boardTitle;
 
     @ApiModelProperty(value = "'公告栏详细'")
-    private String boardContent;
+    private String        boardContent;
 
     @ApiModelProperty(value = "创建时间")
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
@@ -39,7 +39,7 @@ public class User {
     private LocalDateTime modifyTime;
 
     @ApiModelProperty(value = "创建人")
-    private String creator;
+    private String        creator;
 
     @ApiModelProperty(value = "'开始时间'")
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
@@ -47,6 +47,5 @@ public class User {
     @ApiModelProperty(value = "'结束时间'")
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private LocalDateTime endTime;
-
 
 }
