@@ -69,10 +69,9 @@ public class EventDispatcher extends ApplicationObjectSupport implements Applica
         cachedThreadPool.execute(new Runnable() {
 
             @Override
-            public void run() { 
+            public void run() {
                 try {
-                    //Thread.sleep(1000);
-                    
+
                     Class<? extends Event> clazz = event.getClass();
                     IHandler eventHandler = eventHandlerMap.get(clazz);
 
