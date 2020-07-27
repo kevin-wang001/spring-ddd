@@ -1,14 +1,15 @@
-编程框架核心实现
+DDD框架核心实现
 ```
 com
 └── sf
     └── ddd
         └── core
-            ├── boot \\这是框架的核心启动包，负责框架组件的注册、发现
-            ├── common
-            ├── domain  \\提供Domain Entity标准
-            ├── event
-            ├── exception \\提供Exception标准
-            ├── extension  \\负责扩展机制中的重要概念-扩展(Extension)的定义和执行
-            ├── logger  \\提供DIP的日志接口
+            ├── DomainEventHandler.java \\
+            ├── Event.java
+            ├── EventDispatcher.java  \\领域事件注册及分发中心，这是事件驱动编程的核心实现类
+            ├── IHandler.java
+            └── facade  \\领域间门面服务接口类
+                ├── FacadeService.java
+                ├── FacadeServiceRegistry.java
+                ├── IFacadeService.java
 ```
