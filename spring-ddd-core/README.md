@@ -4,11 +4,11 @@ com
 └── sf
     └── ddd
         └── core
-            ├── DomainEventHandler.java \\
-            ├── Event.java
-            ├── EventDispatcher.java  \\领域事件注册及分发中心，这是事件驱动编程的核心实现类
+            ├── DomainEventHandler.java \\领域事件处理类注解，所有领域事件处理类都需添加该注解，该注解绑定领域事件与其事件处理类
+            ├── Event.java \\领域事件接口，所有的领域事件都需实现此接口
+            ├── EventDispatcher.java  \\领域事件注册及分发中心，这是事件驱动编程的核心实现类，EventDispatcher在应用启动时会扫描容器中所有标注@DomainEventHandler注解的类并注册
             ├── IHandler.java
-            └── facade  \\领域间门面服务接口类
+            └── facade  \\领域层（界限上下文）之间服务调用接口
                 ├── FacadeService.java
                 ├── FacadeServiceRegistry.java
                 ├── IFacadeService.java
