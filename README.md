@@ -19,6 +19,8 @@ spring-ddd是一个依赖spring的类加载机制，结合多年对DDD的理解�
 
 **统一语言：** 统一语言涉及战术与战略层面，这里先从战术层面解释一下。当我们将隐式概念转变为显示概念后（业务逻辑都抽象到领域事件类及事件处理类里），**那领域事件类的命名就代表着我们对业务的理解，必须非常严肃和谨慎**。比如：UpdateOrderAmountEvent和ModifyOrderAmountEvent就代表两个不同的领域事件，UpdateOrderAmountEvent就必须对应UpdateOrderAmountEventHandler处理类。如果命名不规范就会造成后续开发人员对业务逻辑的错误理解。
 
+**如何理解 领域层：**
+
 ### 战略设计： 
 战略设计核心讲了一个问题，领域(界限上下文)如何隔离及领域之间如何关联
 
