@@ -1,4 +1,4 @@
-DDD框架核心实现
+spring-ddd框架核心实现
 ```
 com
 └── sf
@@ -13,3 +13,5 @@ com
                 ├── FacadeServiceRegistry.java \\ 门面服务类注册中心，FacadeServiceRegistry在应用启动时会扫描容器中所有标注@FacadeService注解的类并注册
                 ├── IFacadeService.java \\ 门面服务类接口，所有对领域外提供门面服务类都需实现此接口
 ```
+
+你没有看错，spring-ddd的核心框架代码就这么多（当然底层依赖了spring强大的容器管理与注解机制，所以才叫spring-ddd），但很好的体现了事件驱动编程与领域隔离的思想，在项目的例子sample中，你可以体会spring-ddd如何驱动DDD模式的应用代码框架。
