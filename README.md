@@ -4,7 +4,8 @@ spring-ddd是一个依赖spring的类加载机制，结合多年对DDD的理解�
 领域驱动设计最早源于Eric的《领域驱动设计》一书，这本书介绍的思想在应对软件复杂性方面非常有价值，但是内容非常抽象难以理解，下面先介绍一下本人对《领域驱动设计》核心概念及思想的理解，以及如何在编程实践中运用这些概念及思想。
 
 DDD的核心思想是如何让应用代码架构能体现业务逻辑架构 ，可以分为战术设计和战略设计两个层面
-![qrcode_60.jpg](https://github.com/lz9771/spring-ddd/blob/master/img/DDD-concepts.png)
+
+![image.png](https://github.com/lz9771/spring-ddd/blob/master/img/DDD-concepts.png)
 
 ### 战术设计
 
