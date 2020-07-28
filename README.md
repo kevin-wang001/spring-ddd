@@ -6,7 +6,7 @@ spring-ddd是一个依赖spring的容器管理机制，结合自本人多年对D
 
 DDD的核心思想是如何让应用代码架构能体现业务逻辑架构 ，降低应用架构的复杂性，大致可以分为战术设计和战略设计两个层面
 
-![image.png](https://github.com/lz9771/spring-ddd/blob/master/img/DDD-concepts.png)
+![image.png](https://lz9771.oss-cn-qingdao.aliyuncs.com/DDD-concepts.png)
 
 ### 战术设计
 
