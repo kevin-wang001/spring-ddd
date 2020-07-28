@@ -24,11 +24,11 @@ DDD的核心思想是如何让应用代码架构能体现业务逻辑架构 ，�
 
 **如何理解 领域层(Domain Layer)：** 《领域驱动设计》里提到了分层架构(**LAYERED ARCHITECTURE**),结合Web MVC模型，很多人理解是这样的
 
-![image.png](https://lz9771.oss-cn-qingdao.aliyuncs.com/ddd/layered_architecture.png)
+![image.png](https://lz9771.oss-cn-qingdao.aliyuncs.com/ddd/layered_arch.png)
 
 这里的一个困扰是Service Layer和Domain Layer的边界如何界定，哪些东西适合放到Domain Layer？很难有一个定论。所以我的理解是这样的
 
-![image.png](https://lz9771.oss-cn-qingdao.aliyuncs.com/ddd/layered_architecture1.png)
+![image.png](https://lz9771.oss-cn-qingdao.aliyuncs.com/ddd/layered_arch1.png)
 
 **Domain Layer就是能体现业务模型的Service Layer**，是Service Layer 2.0版本。
 
