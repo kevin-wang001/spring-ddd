@@ -22,7 +22,7 @@ DDD的核心思想是如何让应用代码架构能体现业务逻辑架构 ，�
 
 **统一语言：** 统一语言涉及战术与战略层面，这里先从战术层面解释一下。当我们将隐式概念转变为显示概念后（业务逻辑都抽象到领域事件类及事件处理类里），**那领域事件类的命名就代表着我们对业务的理解，必须非常严肃和谨慎**。比如：UpdateOrderAmountEvent和ModifyOrderAmountEvent就代表两个不同的领域事件，UpdateOrderAmountEvent必须对应UpdateOrderAmountEventHandler处理类。如果命名不规范就会造成后续开发人员对业务逻辑的错误理解。**最好的代码注释就是代码本身。**
 
-**如何理解 领域层：** 《领域驱动设计》里提到了分层架构(**LAYERED ARCHITECTURE**),结合Web MVC模型，大多数人理解成了这样
+**如何理解 领域层：** 《领域驱动设计》里提到了分层架构(**LAYERED ARCHITECTURE**),结合Web MVC模型，很多人理解是这样的
 
 ![image.png](https://lz9771.oss-cn-qingdao.aliyuncs.com/ddd/layered_architecture.png)
 
