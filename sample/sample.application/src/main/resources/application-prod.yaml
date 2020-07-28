@@ -11,10 +11,10 @@ spring:
   messages:
     encoding: utf-8
   datasource:
-    url: jdbc:mysql://sdeisfxcloud-m.db.sfcloud.local:3306/sdeisfxcloud?useSSL=false&amp;useUnicode=true&amp;characterEncoding=UTF8
+    url: jdbc:mysql://xxx.xxx.xxx:3306/xxx?useSSL=false&amp;useUnicode=true&amp;characterEncoding=UTF8
     hikari:
-      username: sdeis_fxcloud
-      password: ENC(QvAsQCo3daFKtQMQFox2CAlNNxENJMJDNZI23NVaCTY=)
+      username: 
+      password: 
       idle-timeout: 600000
       max-lifetime: 1800000
       maximum-pool-size: 8
@@ -22,10 +22,10 @@ spring:
       connection-test-query: SELECT 1
     driver-class-name: com.mysql.jdbc.Driver
   redis:
-    password: ENC(kF0PTwr+67HfHfVoZJqCDYGRvp9csvCk8T0By0MsEug=)
+    password: 
     sentinel:
-      master: ESG_SDEIS_CORE_REDIS_C01
-      nodes: esg-sdeis-core1.cache.sfdc.com.cn:8001,esg-sdeis-core2.cache.sfdc.com.cn:8001,esg-sdeis-core3.cache.sfdc.com.cn:8001
+      master: 
+      nodes: 
     database: 5
   servlet:
     multipart:
@@ -47,7 +47,7 @@ logging:
 
 jasypt:
   encryptor:
-    password: 2sJsOWjTIQx
+    password: 
 
 applications:
   dddUrl: http://ddd.sf-express.com
