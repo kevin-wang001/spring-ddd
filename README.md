@@ -28,7 +28,7 @@ DDD的核心思想是如何让应用代码架构能体现业务逻辑架构 ，�
 
 这里的一个困扰是Service Layer和Domain Layer的边界如何界定，哪些东西适合放到Domain Layer？很难有一个定论。所以我的理解是这样的
 
-![image.png](https://lz9771.oss-cn-qingdao.aliyuncs.com/ddd/layered_arch1.png)
+![image.png](https://lz9771.oss-cn-qingdao.aliyuncs.com/ddd/layered_arch2.png)
 
 **Domain Layer就是能体现业务模型的Service Layer**，是Service Layer 2.0版本。
 
