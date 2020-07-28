@@ -50,4 +50,4 @@ jasypt:
     password: 
 
 applications:
-  dddUrl: http://ddd.sf-express.com
+  dddUrl: 

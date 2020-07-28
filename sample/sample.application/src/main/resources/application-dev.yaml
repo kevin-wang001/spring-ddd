@@ -51,4 +51,4 @@ jasypt:
     password: 
 
 applications:
-  dddUrl: http://ddd.dev.sf-express.com
+  dddUrl: 
