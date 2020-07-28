@@ -6,7 +6,7 @@ spring-ddd是一个依赖spring的容器管理机制，结合自本人多年对D
 
 DDD的核心思想是如何让应用代码架构能体现业务逻辑架构 ，降低应用架构的复杂性，大致可以分为战术设计和战略设计两个层面
 
-![image.png](https://lz9771.oss-cn-qingdao.aliyuncs.com/DDD-concepts.png)
+![image.png](https://lz9771.oss-cn-qingdao.aliyuncs.com/ddd/concepts.png)
 
 ### 战术设计
 
@@ -22,7 +22,9 @@ DDD的核心思想是如何让应用代码架构能体现业务逻辑架构 ，�
 
 **统一语言：** 统一语言涉及战术与战略层面，这里先从战术层面解释一下。当我们将隐式概念转变为显示概念后（业务逻辑都抽象到领域事件类及事件处理类里），**那领域事件类的命名就代表着我们对业务的理解，必须非常严肃和谨慎**。比如：UpdateOrderAmountEvent和ModifyOrderAmountEvent就代表两个不同的领域事件，UpdateOrderAmountEvent必须对应UpdateOrderAmountEventHandler处理类。如果命名不规范就会造成后续开发人员对业务逻辑的错误理解。**最好的代码注释就是代码本身。**
 
-**如何理解 领域层：** 《领域驱动设计》里提到了分层架构(**LAYERED ARCHITECTURE** ),
+**如何理解 领域层：** 《领域驱动设计》里提到了分层架构(**LAYERED ARCHITECTURE**),结合Web MVC模型，大多数人理解成了这样
+
+![image.png](https://lz9771.oss-cn-qingdao.aliyuncs.com/ddd/layered_architecture.png)
 
 ### 战略设计
 战略设计核心讲了一个问题，领域(界限上下文)如何隔离及领域之间如何关联
