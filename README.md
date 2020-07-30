@@ -55,6 +55,6 @@ DDD的核心思想是如何让应用代码架构能体现业务逻辑架构 ，�
 ### 简洁架构
 上面理论说了很多，但其实spring-ddd的架构是极简的，希望对大家有用！！！
 
-![image.png](https://lz9771.oss-cn-qingdao.aliyuncs.com/ddd/springddd.png)
+![image.png](https://lz9771.oss-cn-qingdao.aliyuncs.com/ddd/springddd1.png)
 
 
