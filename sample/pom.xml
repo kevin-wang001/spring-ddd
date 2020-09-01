@@ -21,7 +21,7 @@
 	</properties>
 
 	<modules>
-		<module>sample.bundle.facade</module>
+		<module>sample.common.facade</module>
 		<module>sample.bundle.order</module>
 		<module>sample.bundle.account</module>
 		<module>sample.application</module>

@@ -4,11 +4,11 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.sf.ddd.sample</groupId>
-	<artifactId>sample.bundle.facade</artifactId>
+	<artifactId>sample.common.facade</artifactId>
 	<packaging>jar</packaging>
 	<version>1.0</version>
 
-	<name>sample.bundle.facade</name>
+	<name>sample.common.facade</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

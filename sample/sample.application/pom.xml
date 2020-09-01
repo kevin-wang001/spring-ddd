@@ -27,7 +27,7 @@
 		<!-- 插件接口 -->
 		<dependency>
 			<groupId>com.sf.ddd.sample</groupId>
-			<artifactId>sample.bundle.facade</artifactId>
+			<artifactId>sample.common.facade</artifactId>
 			<version>1.0</version>
 		</dependency>
 
